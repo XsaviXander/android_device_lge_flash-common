@@ -23,8 +23,7 @@ COMMON_FLASH_PATH := device/lge/flash-common
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_FLASH_PATH)/overlay \
-    $(COMMON_FLASH_PATH)/overlay-lineage
+    $(COMMON_FLASH_PATH)/overlay
 
 # Properties
 TARGET_SYSTEM_PROP += $(COMMON_FLASH_PATH)/system.prop
